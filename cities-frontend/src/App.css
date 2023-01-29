@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  margin-top: 2%;
+  font-size: calc(5px + 2vmin);
+}
+
+
+table, th, td {
+  border: 1px solid grey;
+}
+.tableImage {
+  height: 200px;
+}
+
+#editModal {
+  font-size: calc(1px + 2vmin);
+}
+
+th {
+  width: 400px;
+}
+.tableButton {
+  width: 100px;
+}
+
+#logoutButton{
+  position:absolute;
+  right: 10px;
+  top: 10px;
+}
